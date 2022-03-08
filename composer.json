@@ -1,0 +1,23 @@
+{
+    "name": "death_satan/json",
+    "description": "Json Manage,Convert",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DeathSatan\\Json\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Death-Satan",
+            "email": "2771717608@qq.com"
+        }
+    ],
+    "require": {
+        "ext-json": "*"
+    }
+}
